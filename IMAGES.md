@@ -11,3 +11,11 @@ image file ....
 <h3> hr diagram </h3>
 
 ![HRdiagram](https://github.com/Navi1313/SpaceProject/assets/121182901/dc769a63-ba2d-4a3c-adb8-e7e4d5180f93)
+
+
+![inbox_3791628_14338bbebf77d18e1faef582bccdbdd6_hr](https://github.com/Navi1313/SpaceProject/assets/121182901/1dea9cba-5c1a-4a4a-88b8-4f04065d4555)
+
+![inbox_3791628_9fc57334a9b9fafbc71aacdd6e5cd69c_310px-Hertzsprung-Russel_StarData](https://github.com/Navi1313/SpaceProject/assets/121182901/c4fa7146-3d2b-4305-972d-894a7d0f82ef)
+
+
+![inbox_3791628_fe9436bf4e2d23b5b18fb3db1f1fcbcb_HRDiagram](https://github.com/Navi1313/SpaceProject/assets/121182901/6b78e1b5-86b7-4437-910a-6decf830bf74)
