@@ -7,3 +7,7 @@ image file ....
 <h3> Backward Propagtion </h3>
 
 <img width="416" alt="backwardPropagation" src="https://github.com/Navi1313/SpaceProject/assets/121182901/825dc8ec-8111-4a18-874d-c10c1241f323">
+
+<h3> hr diagram </h3>
+
+![HRdiagram](https://github.com/Navi1313/SpaceProject/assets/121182901/dc769a63-ba2d-4a3c-adb8-e7e4d5180f93)
