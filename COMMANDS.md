@@ -1,3 +1,21 @@
+```
+@app.post('/predict')
+def prediction(temperature, luminosity, radius, abs_mag):
+    input_features = [[temperature, luminosity, radius, abs_mag]]
+    pred_class, probs, classes = make_pred(model_path, input_features)
+    
+  
+    # Convert numpy arrays to lists
+    return {
+         "Predicted_class": pred_class,
+    }
+
+```
+
+
+
+
+
 Commands I used to do create all these stuff with git :->
 
 S1 -> Go to GitHub create one empty project with project name. 
