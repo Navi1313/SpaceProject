@@ -1,3 +1,6 @@
+
+### make sure to add this function insdide the api.py file ##
+
 ```
 @app.post('/predict')
 def prediction(temperature, luminosity, radius, abs_mag):
