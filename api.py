@@ -16,6 +16,6 @@ def prediction(temperature, luminosity, radius, abs_mag):
   
     # Convert numpy arrays to lists
     return {
-         "Predicted_class": pred_class
+         "Predicted_class": pred_class,
     }
     
