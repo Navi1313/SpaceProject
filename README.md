@@ -1,5 +1,5 @@
 <div align="center">
-  <h1 align="center"> ⚡️ Stars Class Predictor 🐍  <h1> 
+  <h1 align="center"> ⚡️ Stars Classes Predictor 🐍  <h1> 
 </div>
 
 ## 📋 <a name="table">Table of Contents</a>
