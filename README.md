@@ -38,9 +38,9 @@ Make sure you have the following installed on your machine:
 ###  1) For Model Building and Training ###
 
 - [Anaconda](https://www.anaconda.com/download)
-- [jupyter Notebook] :(from anaconda prompt)
 - [python](https://www.python.org/downloads/)
-- [test environment](Create using command -> 'conda create --name myenv python==lastestVersion')
+- [jupyter Notebook] 
+- [test environment]
   
 ### 2) For Model Deployment 
 
@@ -50,6 +50,18 @@ Make sure you have the following installed on your machine:
 -----------------------------------------------------------------
 
 **Model  Building setup**
+
+0. Must be created an test environment.
+   
+```bash
+ conda create --name myenv python==lastestVersion
+```
+
+```bash
+ conda activate myenv
+```
+
+...................
 
 1. import numpy and pandas for data manipulation and cleaning.
 2. import necessary scikit-learn libraries
@@ -61,7 +73,7 @@ Make sure you have the following installed on your machine:
 8. Now Predict the class of star and color from this model .
 
 
-**Compiling the Project**
+**Depoloyment Setup for Project**
 
 1. import fast api and uvicorn in VScode after creating new Project inside same directory .
 ```bash
@@ -72,6 +84,8 @@ Make sure you have the following installed on your machine:
 ```
 2. Crate an application.py file write an code to deploy on web and add the model pikle file.
 3. follow Repo for more.
+
+
 **Running the Project**
 
 ```bash
