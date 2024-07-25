@@ -102,10 +102,9 @@ Output :->
 ## <a name="links">🔗 Links</a>
 
 ### Read the documentation for more details
-1. <a href="https://portal.thirdweb.com/"> thirdweb.com </a>
-2. <a href="https://portal.thirdweb.com/"> fastapi.com </a>
-3. <a href="https://scikit-learn.org/stable/modules/generated/sklearn.multioutput.MultiOutputClassifier.html"> scikit-learn Mutioutput Classifier </a>
-4. <a href="https://scikit-learn.org/stable/modules/generated/sklearn.pipeline.Pipeline.html">Pipeling</a>
+1. <a href="https://portal.thirdweb.com/"> fastapi.com </a>
+2. <a href="https://scikit-learn.org/stable/modules/generated/sklearn.multioutput.MultiOutputClassifier.html"> scikit-learn Mutioutput Classifier </a>
+3. <a href="https://scikit-learn.org/stable/modules/generated/sklearn.pipeline.Pipeline.html">Pipeling</a>
 
 
 **Developer**
