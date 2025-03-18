@@ -113,6 +113,6 @@ Output :->
 <a href="www.linkedin.com/in/navjot-singh-407025256"> Navi Sabharwal </a>
 
 
-## <a name="output">⚡️ Output</a>
+## <a name="Outcome">⚡️ Output</a>
 
 <img width="1440" alt="Screenshot 2024-07-06 at 6 24 21 PM" src="https://github.com/Navi1313/SpaceProject/assets/121182901/e7e5a26f-2f80-4ad6-9229-fa7c2e296a7c">
