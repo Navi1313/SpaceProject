@@ -24,6 +24,7 @@ This projet is based on Machine Learning gives Multiple output from trained mode
 - Uvicorn server
 - Scikit-learn
 - Jupyter (Anaconda)
+- install ipywidgets using pip for YdataProfiling 
 - virutal environment using conda python 
 
 
