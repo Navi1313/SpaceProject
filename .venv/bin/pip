@@ -1,4 +1,6 @@
-#!/Users/navi/Desktop/space-project/.venv/bin/python
+#!/bin/sh
+'''exec' "/Users/navi/Desktop/New Folder With Items/pythonProj/space-project/.venv/bin/python" "$0" "$@"
+' '''
 # -*- coding: utf-8 -*-
 import re
 import sys

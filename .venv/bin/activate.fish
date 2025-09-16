@@ -33,7 +33,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/Users/navi/Desktop/space-project/.venv"
+set -gx VIRTUAL_ENV "/Users/navi/Desktop/New Folder With Items/pythonProj/space-project/.venv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH

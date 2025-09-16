@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Star Predictor</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🌌 Star Classification Predictor</h1>
+        <form action="/predict" method="post">
+            <div class="form-row">
+                <label for="temperature">Temperature (Kelvin)</label>
+                <input type="number" name="temperature" step="any" required placeholder="e.g. 100 ">
+                <div class="hint">Surface temperature in Kelvin</div>
+            </div>
+
+            <div class="form-row">
+                <label for="luminosity">Luminosity (L☉)</label>
+                <input type="number" name="luminosity" step="any" required placeholder="e.g. 1.0">
+                <div class="hint">Relative to the Sun(Lo = 3.828 x 10^26 Watts  - Avg Luminosity of Sun)</div>
+            </div>
+
+            <div class="form-row">
+                <label for="radius">Radius (R☉)</label>
+                <input type="number" name="radius" step="any" required placeholder="e.g. 123.0">
+                <div class="hint">Relative to the Sun (Ro = 6.9551 x 10^8 m - Avg Luminosity of Sun)</div>
+            </div>
+
+            <div class="form-row">
+                <label for="abs_mag">Absolute Magnitude (Mv)</label>
+                <input type="number" name="abs_mag" step="any" required placeholder="e.g. 4333.83">
+                <div class="hint">Magnitude the star , if it was placed at a distance of 10 parsecs (32.6Ly) from Earth</div>
+            </div>
+
+            <div class="submit-wrap">
+                <button type="submit">✨ Predict ✨</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

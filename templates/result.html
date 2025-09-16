@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Prediction Result</title>
+  <link rel="stylesheet" href="/static/style.css" />
+  <style>
+    /* small inline styles in case you don't want to edit CSS file */
+    table { width: 80%; margin: 8px auto; border-collapse: collapse; }
+    th, td { padding: 8px 10px; border: 1px solid #ccc; text-align: left; }
+    th { background: #444; color: #fff; }
+    tr.predicted { background: #e6ffe6; font-weight: bold; }
+    .center { text-align: center; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 class="center">🌟 Prediction Result</h1>
+
+    <p class="center"><strong>Predicted Star Type:</strong> {{ predicted_star }}</p>
+    <p class="center"><strong>Predicted Color:</strong> {{ predicted_color }}</p>
+
+    <br><br><br>
+    <hr><hr>
+    <h2 class="center">🪐 Star Type Probabilities</h2>
+    {% if star_results %}
+    <table>
+      <thead>
+        <tr><th>Class</th><th>Probability (%)</th></tr>
+      </thead>
+      <tbody>
+        {% for label, prob in star_results %}
+        <tr class="{% if label == predicted_star %}predicted{% endif %}">
+          <td>{{ label }}</td>
+          <td>{{ "%.2f"|format(prob * 100) }}%</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    {% else %}
+      <p class="center">No star-type probabilities available.</p>
+    {% endif %}
+
+    <h2 class="center">🎨 Color Probabilities</h2>
+    {% if color_results %}
+    <table>
+      <thead>
+        <tr><th>Color</th><th>Probability (%)</th></tr>
+      </thead>
+      <tbody>
+        {% for label, prob in color_results %}
+        <tr class="{% if label == predicted_color %}predicted{% endif %}">
+          <td>{{ label }}</td>
+          <td>{{ "%.2f"|format(prob * 100) }}%</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    {% else %}
+      <p class="center">No color probabilities available.</p>
+    {% endif %}
+
+    <p class="center"><a href="/" class="back-btn">🔙 Back</a></p>
+
+  </div>
+</body>
+</html>
